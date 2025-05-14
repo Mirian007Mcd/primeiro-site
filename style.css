@@ -16,9 +16,10 @@ color:black
 }
 h1{
     font-family: "Merriweather", serif;
-    color: darkblue;
+    color: rgb(31, 23, 143);
     font-size: 5rem;
     text-align: center;
+    
 }
 img{
 width: 40%;
@@ -27,11 +28,35 @@ justify-content: center;
 align-items: center;
 margin: auto;
 border-radius: 25px;
-box-shadow: #015c80fa 4px 4px;
+box-shadow: #02425cfa 4px 4px;
 }
-p{
-    font-family: "Merriweather", serif;
+p{ width: 60%;
+    font-size: 1.3rem;
+    font-weight: 800;
+    display: flex;
+    margin: auto;
+    text-align: justify;
+
 }
-li{
-    font-family: "und"; 
+li{ width: 60%;
+    font-size: 1.3rem;
+    font-weight: 800;
+    display: flex;
+    margin: auto;
+    text-align: justify;
+}
+h2{  text-align: justify;
+    color: rgb(0, 0, 0);
+    text-shadow: #90d0e9fa 4px 4px;
+    text-align: center;
+    font-size: 2.5rem;
+}
+ul{align-items: center;
+    display: list-item;
+    justify-content: right;
+    margin: 10;
+    font-size: 1.5rem;
+    list-style: none;
+    text-align: center;
+
 }
